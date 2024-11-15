@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h1{
+    color: blueviolet;
+   
+}
+
+h2{
+    color:indigo ;
+    text-align: center;
+}
+
+form{
+    border: 2px solid blueviolet ;
+    width: max-content;
+   
+}
+form input{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: plum;
+    color: blueviolet;
+    cursor: pointer;
+
+}
+.container{
+    display: flex;
+} 
+#result{
+    border: 2px solid blueviolet;
+    width: max-content;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 1rem;
+}

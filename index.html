@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>JavaScript Events <br>Assignment # 49-52</h2>
+
+
+
+<!-- question#1 -->
+
+<h1>1.Fill the form click Signup button to review your detail:</h1>
+<h1>Signup Form</h1>
+    
+<div class="container">
+
+    <div class="form-section">
+        <form id="signupForm" onsubmit="submitForm(event)">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" required><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" required><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" required><br>
+
+            <label for="qualification">Qualification:</label>
+            <input type="text" id="qualification" required><br>
+
+            <label for="occupation">Occupation:</label>
+            <input type="text" id="occupation" required><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="result-section">
+        
+        <div id="result">
+            <h2>Submitted Information:</h2>
+        </div>
+    </div>
+</div>
+
+<!-- question#2 -->
+
+<h1>2.Click the below link to read more: </h1>
+
+<img src="./images/mobile.webp" alt="mobile">
+
+<h3>REALME MOBILE Information :</h3>
+
+<p id="more">Realme (stylized in all lowercase or as гealme; Chinese: 真我; pinyin: Zhēn wǒ) is a multinational Chinese consumer electronics manufacturer based in Shenzhen, Guangdong. It was founded by Li Bingzhong (known as Sky Li) on May 4, 2018, who was a former vice president of Oppo. Starting originally as a sub-brand of Oppo, Realme eventually ventured as its own brand. Realme then became the fastest-growing 5G smartphone brand in Q3 2021.  
+    <a href="#" onclick="expandPara()">Read more</a>
+</p>
+
+
+<!-- question#3 -->
+
+ <h1>Student Details Form</h1>
+
+
+<form id="studentForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required><br><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" required><br><br>
+
+    <label for="class">Class:</label>
+    <input type="text" id="class" required><br><br>
+
+    <button type="submit">Add Student</button>
+</form>
+
+<table border="1px" id="studentTable">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Class</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
+
